@@ -34,22 +34,33 @@ row::after {
     padding: 3em 18em;
 }
 
-/* Navigation List */
-.nav-list {
+/* Navigation bar */
+.nav-bar {
     background-color: rgb(240, 240, 240);
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     display: flex;
 }
 
-.nav-list div {
-    text-align: center;
-    padding: 10px;
+.nav-list li {
     width: 25%;
 }
 
 .nav-list a {
-    color: rgb(0, 0, 0);
+    display: block;
+    text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
+    color: inherit;
+    padding: 10px 0px;
+}
+
+.nav-list a:hover {
+    background-color: rgb(220, 220, 220);
 }
 
 /* Header Section */
